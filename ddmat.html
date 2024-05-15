@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ddmenu</title>
+    <style>
+
+body {
+    background: #ffffe6;
+}
+h1 {
+     font-family: chalkduster, sans-serif;
+    color: red;
+    
+ }
+h2{
+    text-align: center;
+    font-family: copperplate, fantasy;
+    color: red;
+    }
+	input {
+		margin:10px;
+		padding: 5px;
+		
+	}
+	input:focus {
+		outline: 1px solid red;
+		box-shadow: 10px 10px 10px #ccc;
+	}
+	#toppings {
+		padding: 5px;
+		background: #999;
+		color: #fff;
+		
+	}
+	input[type="tel"] {
+		border-bottom: 1px dashed blue;
+		box-sizing: border-box;
+	}
+	input[type="submit"] {
+		width: 15%;
+		font-size: 20px;
+		font-weight: 500;
+        background: red;
+        color: white;
+		
+	}
+    select {
+        background: red;
+        color: white;
+        font-family: garamond, serif;
+     }
+</style>
+</head>
+
+<body>
+<h1 align="center">PlayBoi Carti Shirt</h1>
+
+<p style="text-align:center;"><img align="center" src="carti.jpg" alt="Playboi carti shirt" width="270" height="224.75" style="vertical-align:middle"></p>
+<br>
+<h2 align="center">Buy a brand new PlayBoi Carti T-Shirt for $20!</h2>
+<fieldset>
+<form>
+<p align="center">
+Select Your Sex: 
+<label for="male">Male</label><input type="radio" id="male" name="gender"/> 
+<label for="female">Female</label> <input type="radio" id="female" name="gender"/>
+</p>
+<p align="center">
+Select Color: 
+<label for="red">Red</label><input type="radio" id="red" name="color"/> 
+<label for="black">Black</label> <input type="radio" id="black" name="color"/>
+<label for="white">White</label> <input type="radio" id="white" name="color"/>
+</p>
+</p>
+<p align="center">
+Select Items That Come With Shirt:
+<input type="checkbox" id="bag" name="item1" value="bag"><label for="bag">Bag: $12</label>
+<input type="checkbox" id="sticker" name="item2" value="sticker"><label for="sticker">Sticker: $1</label>
+<input type="checkbox" id="poster" name="item3" value="poster"><label for="poster">Poster: $7</label>
+<br><br>
+<label for="shirt">Select Shirt Size: </label>
+<select id="shirt" required>
+    <option></option>
+	<option>Small</option>
+	<option>Medium</option>
+	<option>Large</option>
+	<option>X-Large</option>
+</select><br>
+
+<p align="center"><label for="fn" >First Name: </label > 
+<input type="text" size="15" id="fn" maxlength="15" placeholder="First Name" required /></p>
+<p align="center"><label for="ln">Last Name:   </label>
+<input type="text" size="20" id="ln" placeholder="Last Name" maxlength="20" required /></p>
+
+<p align="center">
+Email Adress: 
+ <input type="email" placeholder="example@gmail.com" required /><br><br>
+  <label for="phone">Enter a Phone Number:</label>
+  <input type="tel" id="phone" name="phone" placeholder="123-456-7889" maxlength="12" required>
+</p>
+<p align="center"> 
+<textarea cols="40" rows="5">Questions here </textarea>
+</p>
+<p align="center">
+<input type="submit" value="enter"/> </p>
+</fieldset>
+</form>
+</body>
+
+</html>
