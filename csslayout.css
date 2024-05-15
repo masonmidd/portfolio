@@ -1,0 +1,135 @@
+body {
+	background: #e6e6e6;
+}
+#all {
+	width: 80%;
+	height: auto;
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+h1 {
+    color: red;
+}
+
+#info{
+    border-bottom: 2px solid black;
+    background: #ff8080;
+    padding: 5px;
+}
+#head {
+    margin: auto;
+	height: 60px;
+	font-size: 20px;
+    font-family: copperplate, fantasy;
+	border-bottom: 4px solid black;
+	text-align: center;
+	padding: .25em;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    background: grey;
+	
+}
+#head a:link{
+	color: black;
+    background: grey;
+	text-decoration: none;
+    border: 2px solid black
+}
+#head a:active{
+	color: gray; 
+	text-decoration: underline;
+}
+#head a:hover{
+	color: #ff4d4d; 
+	text-decoration: underline;
+}
+#head a:visited{
+	color: #990000;
+	text-decoration: underline;
+}
+#head a:focus{
+	color: #4d0000; 
+	text-decoration: underline;
+}
+#about{
+	width: 20%;
+	height: 700px;
+	background: #a6a6a6;
+	float: left;
+	border-right: 1px solid black;
+	box-sizing: border-box;
+}
+
+#products {
+	width: 80%;
+	height: 700px;
+	background: #ccc;
+    float: left;
+    margin: auto;
+    overflow: auto;
+	
+	
+}
+img {
+	max-width: 90%;
+}
+#foot{
+	clear: both;
+	height: 50px;
+    position: static;
+    bottom: 10;
+	background: #fff;
+	border-top: 1px solid #333;
+	text-align: center;
+   
+    
+	
+}
+@media only screen and (min-width: 450px) and (max-width: 800px) {
+	body{
+		margin: 0;
+		
+	}
+	#all {
+		width: 90%;
+        height: 100%;
+	}
+	#products{
+		width: 80%;
+		float: right;
+		
+	}
+
+@media only screen and (min-width: 0px) and (max-width: 449px){
+	body {
+		margin: 0;
+		
+	}
+		#all {
+		width: 100%;
+        height: 100%;
+	}
+	#head {
+	height: 50px;
+	font-size: 1.1em;
+	padding: .15em;
+
+	
+}
+	#about {
+		width: 100%;
+		height: auto;
+		float: none;
+		
+	}
+	#products{
+		width: 100%;
+		height: auto;
+		float: none;
+		
+	}
+
+}
